@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #0056b3;
+}
+
+#contactForm input, #contactForm textarea, #contactForm button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contactForm button {
+    background-color: #0056b3;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.social-buttons button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#whatsapp-hato, #whatsapp-minitas {
+    background-color: #25D366;
+}
+
+#facebook {
+    background-color: #4267B2;
+}
+
+#instagram {
+    background-color: #C13584;
+}
+
+#gmail {
+    background-color: #D44638;
+}
+
+footer {
+    background-color: #0056b3;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
